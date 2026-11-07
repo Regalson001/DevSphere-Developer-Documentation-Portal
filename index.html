@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevSphere — Software Development Documentation Portal</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <header class="navbar">
+        <div class="nav-brand">
+            <span class="logo-icon">DS</span>
+            <h2>DevSphere</h2>
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Search documentation (e.g., HTML, CSS Grid)..." aria-label="Search Documentation">
+        </div>
+        <nav class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="pages/html-guide.html">Guides</a>
+            <a href="#resources">Resources</a>
+            <a href="https://github.com/Regalson001" target="_blank" class="github-btn">GitHub</a>
+        </nav>
+    </header>
+
+    <div class="main-layout">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <h3>Getting Started</h3>
+            <ul>
+                <li><a href="index.html" class="active">Overview</a></li>
+                <li><a href="#quickstart">Quickstart Guide</a></li>
+                <li><a href="#architecture">Project Architecture</a></li>
+            </ul>
+            <h3>Core Guides</h3>
+            <ul>
+                <li><a href="pages/html-guide.html">HTML5 Semantic Elements</a></li>
+                <li><a href="#css-layout">CSS Grid & Flexbox</a></li>
+                <li><a href="#responsive">Responsive Design</a></li>
+                <li><a href="#accessibility">Web Accessibility (a11y)</a></li>
+            </ul>
+            <h3>References</h3>
+            <ul>
+                <li><a href="#components">UI Components</a></li>
+                <li><a href="#resources">External Resources</a></li>
+            </ul>
+        </aside>
+
+        <!-- Content Body -->
+        <main class="content-body">
+            <nav class="breadcrumb" aria-label="breadcrumb">
+                <a href="index.html">DevSphere</a> / <span>Home Overview</span>
+            </nav>
+
+            <section class="hero-section">
+                <h1>Software Development Documentation Portal</h1>
+                <p class="lead">A professional, responsive technical knowledge base featuring structured guides, architectural resources, semantic HTML5, and modular CSS3 architecture.</p>
+                <div class="cta-buttons">
+                    <a href="pages/html-guide.html" class="btn-primary">Explore Guides</a>
+                    <a href="#architecture" class="btn-secondary">View Architecture</a>
+                </div>
+            </section>
+
+            <section id="quickstart" class="doc-section">
+                <h2>Quickstart Documentation Overview</h2>
+                <p>DevSphere is engineered to provide clear, accessible documentation for developers building high-performance modern user interfaces. Use the sidebar to navigate through modular technical references.</p>
+                
+                <div class="cards-grid">
+                    <div class="doc-card">
+                        <h3>Semantic HTML5</h3>
+                        <p>Learn structured document outlines, semantic landmarks, and proper tag hierarchy for SEO and accessibility.</p>
+                        <a href="pages/html-guide.html" class="card-link">Read HTML Guide &rarr;</a>
+                    </div>
+                    <div class="doc-card">
+                        <h3>Advanced CSS3 Layouts</h3>
+                        <p>Master modern grid configurations, fluid flexbox alignment systems, and scalable component styling.</p>
+                        <a href="#css-layout" class="card-link">Explore Layouts &rarr;</a>
+                    </div>
+                    <div class="doc-card">
+                        <h3>Responsive Architecture</h3>
+                        <p>Implement mobile-first fluid media queries, flexible container dimensions, and adaptive typography scales.</p>
+                        <a href="#responsive" class="card-link">Learn Responsive &rarr;</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="architecture" class="doc-section">
+                <h2>Proposed VS Code Project Structure</h2>
+                <p>This repository follows a clean, modular folder hierarchy ensuring optimal separation of concerns across multiple style sheets and guide templates.</p>
+                
+                <div class="code-block-wrapper">
+                    <pre><code>DevSphere-Developer-Documentation-Portal/
+│
+├── index.html
+├── pages/
+│   └── html-guide.html
+├── css/
+│   ├── styles.css
+│   ├── layout.css
+│   ├── components.css
+│   └── responsive.css
+└── README.md</code></pre>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Professional Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 DevSphere Documentation Portal. Built with semantic HTML5 and modern CSS3.</p>
+    </footer>
+</body>
+</html>
