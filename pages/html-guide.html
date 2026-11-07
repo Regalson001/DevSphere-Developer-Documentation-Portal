@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Guide — DevSphere Documentation</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-brand">
+            <span class="logo-icon">DS</span>
+            <h2>DevSphere</h2>
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Search documentation..." aria-label="Search Documentation">
+        </div>
+        <nav class="nav-links">
+            <a href="../index.html">Home</a>
+            <a href="html-guide.html" class="active">Guides</a>
+            <a href="https://github.com/Regalson001" target="_blank" class="github-btn">GitHub</a>
+        </nav>
+    </header>
+
+    <div class="main-layout">
+        <aside class="sidebar">
+            <h3>Getting Started</h3>
+            <ul>
+                <li><a href="../index.html">Overview</a></li>
+            </ul>
+            <h3>Core Guides</h3>
+            <ul>
+                <li><a href="html-guide.html" class="active">HTML5 Semantic Elements</a></li>
+                <li><a href="#">CSS Grid & Flexbox</a></li>
+                <li><a href="#">Responsive Design</a></li>
+                <li><a href="#">Web Accessibility (a11y)</a></li>
+            </ul>
+        </aside>
+
+        <main class="content-body">
+            <nav class="breadcrumb" aria-label="breadcrumb">
+                <a href="../index.html">DevSphere</a> / <a href="html-guide.html">Guides</a> / <span>HTML5 Semantic Elements</span>
+            </nav>
+
+            <section class="hero-section">
+                <h1>HTML5 Semantic Elements Reference</h1>
+                <p class="lead">Writing meaningful markup using native elements to enhance machine readability, SEO rankings, and assistive screen reader navigation.</p>
+            </section>
+
+            <section class="doc-section">
+                <h2>Why Semantics Matter</h2>
+                <p>Semantic markup clearly describes its meaning to both the browser and the developer. Instead of generic <code>&lt;div&gt;</code> wrappers everywhere, semantic tags give structure to content sections.</p>
+                
+                <h3>Key Semantic Landmarks</h3>
+                <ul class="styled-list">
+                    <li><strong>&lt;header&gt;:</strong> Represents introductory content or navigational links.</li>
+                    <li><strong>&lt;nav&gt;:</strong> Defines a section intended for major navigation links.</li>
+                    <li><strong>&lt;main&gt;:</strong> Specifies the dominant content of the document body.</li>
+                    <li><strong>&lt;aside&gt;:</strong> Content tangentially related to the content around it (sidebars).</li>
+                    <li><strong>&lt;footer&gt;:</strong> Footer for a nearest sectioning content or root element.</li>
+                </ul>
+
+                <div class="code-block-wrapper">
+                    <pre><code>&lt;header class="navbar"&gt;
+    &lt;nav&gt;
+        &lt;a href="/"&gt;Home&lt;/a&gt;
+    &lt;/nav&gt;
+&lt;/header&gt;</code></pre>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2026 DevSphere Documentation Portal.</p>
+    </footer>
+</body>
+</html>
